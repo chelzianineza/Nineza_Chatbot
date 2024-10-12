@@ -1,0 +1,15 @@
+user_input,intent,entities
+Hello,greetings,[]
+"Hi, how are you?",greetings,[]
+I want to book a flight to Paris,flight_booking,"[{ 'word': 'Paris', 'entity': 'LOC' }]"
+Book a flight to New York immediately,flight_booking,"[{ 'word': 'New York', 'entity': 'LOC' }]"
+Can you reserve me a ticket to Tokyo?,flight_booking,"[{ 'word': 'Tokyo', 'entity': 'LOC' }]"
+Is it going to rain?,weather,[]
+Goodbye,goodbye,[]
+See you later,goodbye,[]
+Cancel my flight booking to London,cancel_booking,"[{ 'word': 'London', 'entity': 'LOC' }]"
+Can you help me cancel the hotel reservation?,cancel_booking,[]
+How's the weather in San Francisco?,weather,"[{ 'word': 'San Francisco', 'entity': 'LOC' }]"
+What's the status of my flight to Los Angeles?,flight_status,"[{ 'word': 'Los Angeles', 'entity': 'LOC' }]"
+Is my flight from Tokyo delayed?,flight_status,"[{ 'word': 'Tokyo', 'entity': 'LOC' }]"
+Can you tell me the status of the flight to Paris?,flight_status,"[{ 'word': 'Paris', 'entity': 'LOC' }]"
